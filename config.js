@@ -1,3 +1,4 @@
+const MINE_RATE =1000;
 const INITIAL_DIFFICULTY = 3;
 
 const GENISIS_DATA = {
@@ -9,4 +10,4 @@ const GENISIS_DATA = {
     data: []
 };
 
-module.exports = {GENISIS_DATA};
+module.exports = {GENISIS_DATA, MINE_RATE};
